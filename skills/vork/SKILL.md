@@ -16,6 +16,9 @@ Check, render a cheap still, inspect it, fix the largest visible problem. Use pr
 intended profile (`vork help profiles`). Inspect animation across a contact sheet; revise, approve a better-quality still,
 then render the full output. Budget from measured render time. Save each render for comparison.
 
+A requested camera angle, camera move or placement is checked by value, not by eye: `vork ask` returns a node's
+transform, bounds and share of the frame at any time (`vork help ask`).
+
 Require exit zero and fresh metadata. Read warnings; report every omission or
 substitution. Never silently drop a requested effect. Inspect actual outputs
 before claiming quality. State what was checked, left unchecked, and whether playback was watched.
