@@ -1,0 +1,84 @@
+{
+  "denoiser": "gpu",
+  "exposure": {
+    "clipped": 0.0,
+    "coverage": 1.0,
+    "frames": 1,
+    "mean": 0.3931352749379043,
+    "near_black": 0.0,
+    "worst_clipped": {
+      "frame": 0,
+      "share": 0.0
+    },
+    "worst_near_black": {
+      "frame": 0,
+      "share": 0.0
+    }
+  },
+  "fps": 24,
+  "frames": [
+    {
+      "camera": "orbit_camera",
+      "depth_unit_m": 0.0012207218,
+      "discarded_medium_radiance": 0.0,
+      "dropped_light_samples": 0,
+      "dropped_path_samples": 0,
+      "exposure": {
+        "clipped": 0.0,
+        "coverage": 1.0,
+        "mean": 0.3931352749379043,
+        "near_black": 0.0
+      },
+      "index": 0,
+      "invalid_pixel_count": 0,
+      "invalid_pixels": {},
+      "terminated_medium_paths": 0,
+      "time": 0.0
+    }
+  ],
+  "object_ids": [
+    {
+      "name": "ground",
+      "node_index": 0,
+      "pass_index": 1
+    },
+    {
+      "name": "product",
+      "node_index": 1,
+      "pass_index": 2
+    }
+  ],
+  "output_display": "sRGB",
+  "output_png_depth": 8,
+  "profile": {
+    "level": 2,
+    "name": "std/path",
+    "version": 2
+  },
+  "render_settings": {
+    "adaptive": true,
+    "denoise": true,
+    "frames": 1,
+    "profile": {
+      "level": 2,
+      "name": "std/path",
+      "version": 2
+    },
+    "resolution": [
+      320,
+      180
+    ],
+    "samples": 64
+  },
+  "settings": {
+    "denoiser": {},
+    "integrator": "path",
+    "previs": false,
+    "reconstruct": false,
+    "samples": 64,
+    "seed": 0,
+    "subsurface_method": "random_walk"
+  },
+  "version": 3,
+  "warnings": []
+}
