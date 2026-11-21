@@ -1,0 +1,1087 @@
+{
+  "asset_decode_ms": 1.3322999999999998,
+  "backend": "Vulkan",
+  "deferred_variants": 0,
+  "device": "NVIDIA GeForce RTX 5090",
+  "device_ms": 226.71359999999999,
+  "device_reused": false,
+  "device_stages_ms": [
+    [
+      "instance",
+      142.0053
+    ],
+    [
+      "adapter",
+      5.2407
+    ],
+    [
+      "device",
+      74.12920000000001
+    ],
+    [
+      "cache",
+      5.3308
+    ]
+  ],
+  "encoder_attach_ms": 0.0044,
+  "encoder_finish_ms": 0.0,
+  "encoder_open_ms": 0.0044,
+  "encoder_pixel_readback": null,
+  "encoder_prepare_ms": 0.0,
+  "environment_install_ms": 982.3034,
+  "first_frame_ms": 359.556,
+  "frame_redo_ms": 0.0,
+  "frame_redos": 0,
+  "frame_start": null,
+  "frames": 1,
+  "frames_in_flight": 1,
+  "geometry_vertex_bytes": 1977192,
+  "gpu_timing_readback": true,
+  "install_ms": 25853.5981,
+  "install_reused": false,
+  "invalid_pixel_count": 0,
+  "loop_wall_ms": 366.0638,
+  "material_bind_ms": 1.1198,
+  "output": [
+    "C:\\Users\\haowe\\WorkBuddy\\2026-11-21-00-55-05\\.vork-inspect\\path-tests\\t6-black-hole.png"
+  ],
+  "path_engine": {
+    "draws_scene": false,
+    "reason": "a material program (authored Slang) is installed"
+  },
+  "pipeline_cache_input_bytes": 3052266,
+  "pipeline_cache_rejection": null,
+  "pipeline_cache_save_pending": false,
+  "pipeline_cache_saves": [
+    {
+      "bytes": 4095536,
+      "done": true,
+      "entry": "pipeline",
+      "ms": 1.3192,
+      "step": "serialize"
+    },
+    {
+      "bytes": 4095536,
+      "done": true,
+      "entry": "pipeline",
+      "ms": 12.469199999999999,
+      "step": "publish"
+    },
+    {
+      "bytes": 192,
+      "done": true,
+      "entry": "pipeline-keys",
+      "ms": 8.411999999999999,
+      "step": "publish"
+    }
+  ],
+  "pipeline_cache_status": "accepted",
+  "pipeline_cache_supported": true,
+  "pipeline_creation_ms": [
+    [
+      "HDR solid-angle reduction",
+      35.4892
+    ],
+    [
+      "bc7_EncodeBlockCS",
+      0.3155
+    ],
+    [
+      "bc7_RefineMode56CS",
+      0.4634
+    ],
+    [
+      "bc7_TryMode456CS",
+      2.0869
+    ],
+    [
+      "compositor image pass",
+      558.9854999999999
+    ],
+    [
+      "denoise_pack",
+      0.1379
+    ],
+    [
+      "denoise_unpack",
+      0.0594
+    ],
+    [
+      "display program",
+      0.6442
+    ],
+    [
+      "environment install",
+      0.3328
+    ],
+    [
+      "environment program bake",
+      48.429300000000005
+    ],
+    [
+      "exposure report",
+      0.12010000000000001
+    ],
+    [
+      "float mips",
+      0.21910000000000002
+    ],
+    [
+      "linear material mips",
+      0.1328
+    ],
+    [
+      "mesh-source areas",
+      49.4288
+    ],
+    [
+      "moments_and_rows",
+      45.7674
+    ],
+    [
+      "native TLAS placement",
+      0.40190000000000003
+    ],
+    [
+      "normalize_rows",
+      13.1802
+    ],
+    [
+      "peak_summary",
+      13.674199999999999
+    ],
+    [
+      "peaks",
+      19.4516
+    ],
+    [
+      "post_source",
+      0.1918
+    ],
+    [
+      "resolve_color",
+      0.2353
+    ],
+    [
+      "sRGB material mips",
+      0.2078
+    ],
+    [
+      "summarize",
+      20.300800000000002
+    ],
+    [
+      "unidirectional path",
+      5780.1214
+    ]
+  ],
+  "pipeline_ms": 462.8589,
+  "png_workers": 1,
+  "png_write": true,
+  "ready_ms": 28014.2509,
+  "render_settings": {
+    "adaptive": true,
+    "denoise": true,
+    "frames": 1,
+    "profile": {
+      "level": 2,
+      "name": "std/path",
+      "version": 2
+    },
+    "resolution": [
+      320,
+      180
+    ],
+    "samples": 64
+  },
+  "renderer_pixel_readback": true,
+  "resolution": [
+    320,
+    180
+  ],
+  "samples": [
+    {
+      "collect_wall_ms": 0.3658,
+      "cpu_finish_ms": 7.555300000000003,
+      "cpu_prepare_ms": 1.52,
+      "cpu_submit_ms": 358.93909999999994,
+      "cpu_thread_ms": null,
+      "denoise_filter_ms": 97.3001,
+      "denoise_pack_ms": 0.0,
+      "denoise_upload_ms": 0.0,
+      "denoise_wait_ms": 54.8384,
+      "discarded_medium_radiance": 0.0,
+      "dropped_light_samples": 0,
+      "dropped_path_samples": 0,
+      "encode_pipe_wait_wall_ms": -0.0,
+      "encode_push_wall_ms": 0.0,
+      "frame": 0,
+      "gpu_elapsed_ms": 358.316032,
+      "gpu_ms": 42.44953600000001,
+      "gpu_spans_ms": [
+        [
+          "images",
+          0.0
+        ],
+        [
+          "image inputs",
+          0.0
+        ],
+        [
+          "fibre",
+          0.0
+        ],
+        [
+          "depth",
+          0.0
+        ],
+        [
+          "visibility",
+          0.0
+        ],
+        [
+          "shade",
+          0.0
+        ],
+        [
+          "material classify",
+          0.0
+        ],
+        [
+          "material compose",
+          0.0
+        ],
+        [
+          "refraction",
+          0.0
+        ],
+        [
+          "forward",
+          0.0
+        ],
+        [
+          "subsurface_diffuse",
+          0.0
+        ],
+        [
+          "subsurface_compose",
+          0.0
+        ],
+        [
+          "resolve",
+          0.11113599999999993
+        ],
+        [
+          "deform",
+          0.0
+        ],
+        [
+          "acceleration structures",
+          0.7367999999999998
+        ],
+        [
+          "ao",
+          0.0
+        ],
+        [
+          "gi demand",
+          0.0
+        ],
+        [
+          "gi pilots",
+          0.0
+        ],
+        [
+          "gi beauty",
+          0.0
+        ],
+        [
+          "gi reconstruction",
+          0.0
+        ],
+        [
+          "path camera",
+          0.0
+        ],
+        [
+          "path",
+          41.40188800000001
+        ],
+        [
+          "transparency",
+          0.0
+        ],
+        [
+          "clusters",
+          0.0
+        ],
+        [
+          "reflections",
+          0.0
+        ],
+        [
+          "controls",
+          0.0
+        ],
+        [
+          "compose",
+          0.0
+        ],
+        [
+          "post_source",
+          0.09388799999999996
+        ],
+        [
+          "compositor",
+          0.104384
+        ],
+        [
+          "probes",
+          0.0
+        ],
+        [
+          "exposure",
+          0.00144
+        ],
+        [
+          "reconstruction",
+          0.0
+        ]
+      ],
+      "invalid_pixel_count": 0,
+      "invalid_pixels": {},
+      "nonfinite": null,
+      "output_release_wall_ms": 0.00009999999999999999,
+      "path_kernel": "scene kernel",
+      "sample_count": 64,
+      "terminated_medium_paths": 0,
+      "time": 6.0,
+      "timing_source": "gpu_timestamp",
+      "variants_pending": false
+    }
+  ],
+  "scene_parse_ms": 45.1089,
+  "shader_creation": [
+    {
+      "driver_ms": 0.0,
+      "kind": "Slang",
+      "label": "program a65433d6662d5c46448b6d20339aa60a803d8fed0eaffd493bcc2cf39674de50",
+      "slang_ms": 620.3226
+    },
+    {
+      "driver_ms": 0.0,
+      "kind": "Slang",
+      "label": "program 23364b916f65a61328e87ab744ff59cad947efb99afd1751b9409c833fb53500",
+      "slang_ms": 647.7085000000001
+    },
+    {
+      "driver_ms": 63.66760000000001,
+      "kind": "denoiser device",
+      "label": "OIDN GPU",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0,
+      "kind": "Slang",
+      "label": "program 89e8e249b2602a8ad26f7c2dca213f6a3ca6be0c101fbcbef591a819f503f1d0",
+      "slang_ms": 182.16860000000003
+    },
+    {
+      "driver_ms": 0.0,
+      "kind": "Slang",
+      "label": "program 31ba61cb5c94071a5f2a591c8cf74fd9c930f641e05ff70e00bf9985ff679a81",
+      "slang_ms": 219.031
+    },
+    {
+      "driver_ms": 0.0,
+      "kind": "Slang",
+      "label": "program 6649213f9bceadbcb445dbdf039f31bc2a13446fad86398daa0bcd7688c1a4c9",
+      "slang_ms": 217.9983
+    },
+    {
+      "driver_ms": 0.0,
+      "kind": "Slang",
+      "label": "program 111be46e98397843643d586049762ac9e7f00ca52d31b54601e5954874fd5014",
+      "slang_ms": 212.86440000000002
+    },
+    {
+      "driver_ms": 0.0,
+      "kind": "Slang",
+      "label": "program 7ad31f90652fb79d33fb8c2ff66bba6ea3d980af035630545b4560c773a005e0",
+      "slang_ms": 229.1667
+    },
+    {
+      "driver_ms": 1.788,
+      "kind": "shader module",
+      "label": "per-pixel display program",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.6442,
+      "kind": "pipeline",
+      "label": "display program",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0,
+      "kind": "Slang",
+      "label": "program 2731855df1fa14ac9123278a0fb4c52528e847e20ad89972b9991add75d6d2e0",
+      "slang_ms": 219.4787
+    },
+    {
+      "driver_ms": 0.7852,
+      "kind": "shader module",
+      "label": "environment program",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 48.429300000000005,
+      "kind": "pipeline",
+      "label": "environment program bake",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0152,
+      "kind": "shader module",
+      "label": "environment_reduce_reduce_environment",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 35.4892,
+      "kind": "pipeline",
+      "label": "HDR solid-angle reduction",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.8846999999999999,
+      "kind": "shader module",
+      "label": "GPU environment evaluated state",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 19.4516,
+      "kind": "pipeline",
+      "label": "peaks",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 13.674199999999999,
+      "kind": "pipeline",
+      "label": "peak_summary",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 45.7674,
+      "kind": "pipeline",
+      "label": "moments_and_rows",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 20.300800000000002,
+      "kind": "pipeline",
+      "label": "summarize",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 13.1802,
+      "kind": "pipeline",
+      "label": "normalize_rows",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0277,
+      "kind": "shader module",
+      "label": "environment_filter_main",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.3328,
+      "kind": "pipeline",
+      "label": "environment install",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0,
+      "kind": "Slang",
+      "label": "program e6ea9fe0adcbb501601ac2724fee00aeaf60fa683ae174c2e78e6cf256f229a3",
+      "slang_ms": 228.45860000000002
+    },
+    {
+      "driver_ms": 0.039400000000000004,
+      "kind": "shader module",
+      "label": "bc7_TryMode456CS",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 2.0869,
+      "kind": "pipeline",
+      "label": "bc7_TryMode456CS",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.1099,
+      "kind": "shader module",
+      "label": "bc7_EncodeBlockCS",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.3155,
+      "kind": "pipeline",
+      "label": "bc7_EncodeBlockCS",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0477,
+      "kind": "shader module",
+      "label": "bc7_RefineMode56CS",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.4634,
+      "kind": "pipeline",
+      "label": "bc7_RefineMode56CS",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0046,
+      "kind": "shader module",
+      "label": "mip_vs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0079,
+      "kind": "shader module",
+      "label": "mip_fs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.018000000000000002,
+      "kind": "shader module",
+      "label": "mip_vs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0034000000000000002,
+      "kind": "shader module",
+      "label": "mip_fs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.011899999999999999,
+      "kind": "shader module",
+      "label": "mip_vs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0042,
+      "kind": "shader module",
+      "label": "mip_fs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.2078,
+      "kind": "pipeline",
+      "label": "sRGB material mips",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.21910000000000002,
+      "kind": "pipeline",
+      "label": "float mips",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.1328,
+      "kind": "pipeline",
+      "label": "linear material mips",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.035800000000000005,
+      "kind": "shader module",
+      "label": "depth_main_vs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.008,
+      "kind": "shader module",
+      "label": "depth_opaque_depth_vs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.006,
+      "kind": "shader module",
+      "label": "depth_opaque_single_depth_vs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0011,
+      "kind": "shader module",
+      "label": "depth_opaque_single_depth_fs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0122,
+      "kind": "shader module",
+      "label": "depth_depth_fs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0135,
+      "kind": "shader module",
+      "label": "depth_hashed_depth_fs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0073,
+      "kind": "shader module",
+      "label": "decoupled_visibility_vs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.068,
+      "kind": "shader module",
+      "label": "decoupled_visibility_fs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0467,
+      "kind": "shader module",
+      "label": "decoupled_visibility_single_fs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0122,
+      "kind": "shader module",
+      "label": "decoupled_visibility_masked_vs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.2332,
+      "kind": "shader module",
+      "label": "decoupled_visibility_masked_fs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0427,
+      "kind": "shader module",
+      "label": "decoupled_visibility_transparent_triangles_fs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0173,
+      "kind": "shader module",
+      "label": "depth_shadow_vs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.032499999999999994,
+      "kind": "shader module",
+      "label": "resolve_post_source",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.032,
+      "kind": "shader module",
+      "label": "resolve_resolve_color",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.1918,
+      "kind": "pipeline",
+      "label": "post_source",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.2353,
+      "kind": "pipeline",
+      "label": "resolve_color",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0,
+      "kind": "Slang",
+      "label": "path_programs_main",
+      "slang_ms": 13240.8367
+    },
+    {
+      "driver_ms": 0.0,
+      "kind": "SPIR-V optimization",
+      "label": "path_programs_main",
+      "slang_ms": 0.5526
+    },
+    {
+      "driver_ms": 0.31839999999999996,
+      "kind": "shader module",
+      "label": "path_programs_main",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 5780.1214,
+      "kind": "pipeline",
+      "label": "unidirectional path",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.034499999999999996,
+      "kind": "shader module",
+      "label": "emitter_weights_areas",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 42.060100000000006,
+      "kind": "pipeline",
+      "label": "mesh-source areas",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0212,
+      "kind": "shader module",
+      "label": "emitter_weights_reduce",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 7.3687,
+      "kind": "pipeline",
+      "label": "mesh-source areas",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.6256999999999999,
+      "kind": "shader module",
+      "label": "native TLAS placement",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.40190000000000003,
+      "kind": "pipeline",
+      "label": "native TLAS placement",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0252,
+      "kind": "shader module",
+      "label": "denoise_pack",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.1379,
+      "kind": "pipeline",
+      "label": "denoise_pack",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0327,
+      "kind": "shader module",
+      "label": "denoise_unpack",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0594,
+      "kind": "pipeline",
+      "label": "denoise_unpack",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0,
+      "kind": "Slang",
+      "label": "program 5852c96619df1a223ce1e4cf01e13b6e05db196aa80624ac31de8a659390ac88",
+      "slang_ms": 192.7765
+    },
+    {
+      "driver_ms": 0.0206,
+      "kind": "shader module",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 16.7413,
+      "kind": "pipeline",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0,
+      "kind": "Slang",
+      "label": "program f4cfb64c342da0720be4a61606c30c217ca00275728a4d0513391fc502383154",
+      "slang_ms": 255.7204
+    },
+    {
+      "driver_ms": 0.0247,
+      "kind": "shader module",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 141.3101,
+      "kind": "pipeline",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0,
+      "kind": "Slang",
+      "label": "program 2b61af5ffef6656cb1c00d2ca6496b4ce98f3f48499af4e6930cf2a2db760f44",
+      "slang_ms": 248.7528
+    },
+    {
+      "driver_ms": 0.0316,
+      "kind": "shader module",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 114.3554,
+      "kind": "pipeline",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.019,
+      "kind": "shader module",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0268,
+      "kind": "pipeline",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0158,
+      "kind": "shader module",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0219,
+      "kind": "pipeline",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.018199999999999997,
+      "kind": "shader module",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0247,
+      "kind": "pipeline",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0145,
+      "kind": "shader module",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0184,
+      "kind": "pipeline",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0222,
+      "kind": "shader module",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0207,
+      "kind": "pipeline",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0,
+      "kind": "Slang",
+      "label": "program db2caff277a8e3100569dafdc590e7cd0f91aa8c7ba1c3cbd1a74b21d3106e9d",
+      "slang_ms": 254.97609999999997
+    },
+    {
+      "driver_ms": 0.0432,
+      "kind": "shader module",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 128.4778,
+      "kind": "pipeline",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0305,
+      "kind": "shader module",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0301,
+      "kind": "pipeline",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.023200000000000002,
+      "kind": "shader module",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.027399999999999997,
+      "kind": "pipeline",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0315,
+      "kind": "shader module",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0252,
+      "kind": "pipeline",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0293,
+      "kind": "shader module",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.023799999999999998,
+      "kind": "pipeline",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0194,
+      "kind": "shader module",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0216,
+      "kind": "pipeline",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0,
+      "kind": "Slang",
+      "label": "program c50e606fefad9bf353d4313b9cfa122ccb09174b03a5f3bb55e3ef69454edc83",
+      "slang_ms": 259.1255
+    },
+    {
+      "driver_ms": 0.0239,
+      "kind": "shader module",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 157.8603,
+      "kind": "pipeline",
+      "label": "compositor image pass",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0112,
+      "kind": "shader module",
+      "label": "display_stats_reduce",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.064,
+      "kind": "pipeline",
+      "label": "exposure report",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0062,
+      "kind": "shader module",
+      "label": "display_stats_packed_reduce",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.056100000000000004,
+      "kind": "pipeline",
+      "label": "exposure report",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 79.6491,
+      "kind": "denoiser workspace",
+      "label": "OIDN GPU filters",
+      "slang_ms": 0.0
+    }
+  ],
+  "stages": {
+    "denoise": {
+      "busy_ms": 97.3001,
+      "wait_ms": 54.8384
+    },
+    "driver_pipeline": {
+      "busy_ms": 6596.136299999999,
+      "count": 92,
+      "wall_ms": 6595.6014
+    },
+    "encode": {
+      "busy_ms": 6.1624,
+      "count": 3,
+      "wall_ms": 6.1624
+    },
+    "first_frame_ms": 359.556,
+    "frames_ms": 366.0638,
+    "gpu_ms": 42.44953600000001,
+    "gpu_pass_ms": {
+      "acceleration structures": 0.7367999999999998,
+      "compositor": 0.104384,
+      "exposure": 0.00144,
+      "path": 41.40188800000001,
+      "post_source": 0.09388799999999996,
+      "resolve": 0.11113599999999993
+    },
+    "pipeline_cache_publish": {
+      "busy_ms": 20.8812,
+      "count": 2,
+      "wall_ms": 20.8812
+    },
+    "pipeline_cache_serialize": {
+      "busy_ms": 1.3192,
+      "count": 1,
+      "wall_ms": 1.3192
+    },
+    "setup_ms": 28014.2509,
+    "slang_code_generation": {
+      "busy_ms": 16098.3403,
+      "count": 28,
+      "wall_ms": 15761.194300000001
+    },
+    "slang_front_end": {
+      "busy_ms": 2627.9101,
+      "count": 7,
+      "wall_ms": 2380.0708
+    },
+    "truncated": false,
+    "version": 1,
+    "wall_ms": 28380.314899999998
+  },
+  "still_time": 6.0,
+  "texture_cache_hits": 0,
+  "texture_upload_ms": 428.80199999999985,
+  "transient_bytes": [
+    32487372,
+    32487372
+  ],
+  "version": 4,
+  "video_write": false,
+  "wall_ms": 28380.314899999998
+}
