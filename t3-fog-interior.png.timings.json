@@ -1,0 +1,616 @@
+{
+  "asset_decode_ms": 0.04360000000000001,
+  "backend": "Vulkan",
+  "deferred_variants": 0,
+  "device": "NVIDIA GeForce RTX 5090",
+  "device_ms": 233.5164,
+  "device_reused": false,
+  "device_stages_ms": [
+    [
+      "instance",
+      154.8093
+    ],
+    [
+      "adapter",
+      4.1512
+    ],
+    [
+      "device",
+      70.0147
+    ],
+    [
+      "cache",
+      4.534
+    ]
+  ],
+  "encoder_attach_ms": 0.0072,
+  "encoder_finish_ms": 0.0,
+  "encoder_open_ms": 0.0072,
+  "encoder_pixel_readback": null,
+  "encoder_prepare_ms": 0.0,
+  "environment_install_ms": 4.0724,
+  "first_frame_ms": 147.6026,
+  "frame_redo_ms": 0.0,
+  "frame_redos": 0,
+  "frame_start": null,
+  "frames": 1,
+  "frames_in_flight": 1,
+  "geometry_vertex_bytes": 768,
+  "gpu_timing_readback": true,
+  "install_ms": 62031.726800000004,
+  "install_reused": false,
+  "invalid_pixel_count": 0,
+  "loop_wall_ms": 150.409,
+  "material_bind_ms": 0.2301,
+  "output": [
+    "C:\\Users\\haowe\\WorkBuddy\\2026-11-21-00-55-05\\.vork-inspect\\path-tests\\t3-fog-interior.png"
+  ],
+  "path_engine": {
+    "draws_scene": false,
+    "reason": "a participating medium is installed"
+  },
+  "pipeline_cache_input_bytes": 1034088,
+  "pipeline_cache_rejection": null,
+  "pipeline_cache_save_pending": true,
+  "pipeline_cache_saves": [
+    {
+      "bytes": 2010477,
+      "done": true,
+      "entry": "pipeline",
+      "ms": 1.1457,
+      "step": "serialize"
+    },
+    {
+      "bytes": 2010477,
+      "done": true,
+      "entry": "pipeline",
+      "ms": 12.3673,
+      "step": "publish"
+    },
+    {
+      "bytes": 96,
+      "done": true,
+      "entry": "pipeline-keys",
+      "ms": 9.3851,
+      "step": "publish"
+    }
+  ],
+  "pipeline_cache_status": "accepted",
+  "pipeline_cache_supported": true,
+  "pipeline_creation_ms": [
+    [
+      "denoise_pack",
+      0.1252
+    ],
+    [
+      "denoise_unpack",
+      0.0516
+    ],
+    [
+      "display program",
+      0.5928
+    ],
+    [
+      "environment install",
+      0.3934
+    ],
+    [
+      "exposure report",
+      0.1876
+    ],
+    [
+      "native TLAS placement",
+      0.4131
+    ],
+    [
+      "post_source",
+      0.157
+    ],
+    [
+      "resolve_color",
+      0.2051
+    ],
+    [
+      "timestamp boundary marker",
+      12.271
+    ],
+    [
+      "unidirectional path",
+      8800.5866
+    ]
+  ],
+  "pipeline_ms": 375.2474000000001,
+  "png_workers": 1,
+  "png_write": true,
+  "ready_ms": 62932.3067,
+  "render_settings": {
+    "adaptive": true,
+    "denoise": true,
+    "frames": 1,
+    "profile": {
+      "level": 2,
+      "name": "std/path",
+      "version": 2
+    },
+    "resolution": [
+      320,
+      180
+    ],
+    "samples": 64
+  },
+  "renderer_pixel_readback": true,
+  "resolution": [
+    320,
+    180
+  ],
+  "samples": [
+    {
+      "collect_wall_ms": 0.3724,
+      "cpu_finish_ms": 3.9924000000000013,
+      "cpu_prepare_ms": 0.7208000000000002,
+      "cpu_submit_ms": 147.0351,
+      "cpu_thread_ms": null,
+      "denoise_filter_ms": 66.269,
+      "denoise_pack_ms": 0.0,
+      "denoise_upload_ms": 0.0,
+      "denoise_wait_ms": 0.594,
+      "discarded_medium_radiance": 0.0,
+      "dropped_light_samples": 0,
+      "dropped_path_samples": 0,
+      "encode_pipe_wait_wall_ms": -0.0,
+      "encode_push_wall_ms": 0.0,
+      "frame": 0,
+      "gpu_elapsed_ms": 133.567584,
+      "gpu_ms": 60.83011200000001,
+      "gpu_spans_ms": [
+        [
+          "images",
+          0.0
+        ],
+        [
+          "image inputs",
+          0.0
+        ],
+        [
+          "fibre",
+          0.0
+        ],
+        [
+          "depth",
+          0.0
+        ],
+        [
+          "visibility",
+          0.0
+        ],
+        [
+          "shade",
+          0.0
+        ],
+        [
+          "material classify",
+          0.0
+        ],
+        [
+          "material compose",
+          0.0
+        ],
+        [
+          "refraction",
+          0.0
+        ],
+        [
+          "forward",
+          0.0
+        ],
+        [
+          "subsurface_diffuse",
+          0.0
+        ],
+        [
+          "subsurface_compose",
+          0.0
+        ],
+        [
+          "resolve",
+          0.11215999999999993
+        ],
+        [
+          "deform",
+          0.0
+        ],
+        [
+          "acceleration structures",
+          0.10147200000000003
+        ],
+        [
+          "ao",
+          0.0
+        ],
+        [
+          "gi demand",
+          0.0
+        ],
+        [
+          "gi pilots",
+          0.0
+        ],
+        [
+          "gi beauty",
+          0.0
+        ],
+        [
+          "gi reconstruction",
+          0.0
+        ],
+        [
+          "path camera",
+          0.0
+        ],
+        [
+          "path",
+          60.505120000000005
+        ],
+        [
+          "transparency",
+          0.0
+        ],
+        [
+          "clusters",
+          0.0
+        ],
+        [
+          "reflections",
+          0.0
+        ],
+        [
+          "controls",
+          0.0
+        ],
+        [
+          "compose",
+          0.0
+        ],
+        [
+          "post_source",
+          0.10992
+        ],
+        [
+          "compositor",
+          0.0
+        ],
+        [
+          "probes",
+          0.0
+        ],
+        [
+          "exposure",
+          0.00144
+        ],
+        [
+          "reconstruction",
+          0.0
+        ]
+      ],
+      "invalid_pixel_count": 0,
+      "invalid_pixels": {},
+      "nonfinite": null,
+      "output_release_wall_ms": 0.0,
+      "path_kernel": "scene kernel",
+      "sample_count": 64,
+      "terminated_medium_paths": 0,
+      "time": 0.0,
+      "timing_source": "gpu_timestamp",
+      "variants_pending": false
+    }
+  ],
+  "scene_parse_ms": 622.2215,
+  "shader_creation": [
+    {
+      "driver_ms": 63.5163,
+      "kind": "denoiser device",
+      "label": "OIDN GPU",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.044199999999999996,
+      "kind": "shader module",
+      "label": "environment_filter_main",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.3934,
+      "kind": "pipeline",
+      "label": "environment install",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 1.7975999999999999,
+      "kind": "shader module",
+      "label": "per-pixel display program",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.5928,
+      "kind": "pipeline",
+      "label": "display program",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0,
+      "kind": "Slang",
+      "label": "program 26fe3bb4e7f2f9fbb7aa2fc448404363a50de150a8603c5068f7575cb450ffdf",
+      "slang_ms": 294.8206
+    },
+    {
+      "driver_ms": 0.0,
+      "kind": "Slang",
+      "label": "program 480334c1169d0b8f1f66c8ba346e0fd5d081b2816a52a26e38e6aa412cb42d99",
+      "slang_ms": 335.897
+    },
+    {
+      "driver_ms": 0.0155,
+      "kind": "shader module",
+      "label": "depth_main_vs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0088,
+      "kind": "shader module",
+      "label": "depth_opaque_depth_vs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0074,
+      "kind": "shader module",
+      "label": "depth_opaque_single_depth_vs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0007999999999999999,
+      "kind": "shader module",
+      "label": "depth_opaque_single_depth_fs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.008,
+      "kind": "shader module",
+      "label": "depth_depth_fs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.009300000000000001,
+      "kind": "shader module",
+      "label": "depth_hashed_depth_fs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.009099999999999999,
+      "kind": "shader module",
+      "label": "decoupled_visibility_vs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.054,
+      "kind": "shader module",
+      "label": "decoupled_visibility_fs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.039400000000000004,
+      "kind": "shader module",
+      "label": "decoupled_visibility_single_fs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0185,
+      "kind": "shader module",
+      "label": "decoupled_visibility_masked_vs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0466,
+      "kind": "shader module",
+      "label": "decoupled_visibility_masked_fs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.030000000000000002,
+      "kind": "shader module",
+      "label": "decoupled_visibility_transparent_triangles_fs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0115,
+      "kind": "shader module",
+      "label": "depth_shadow_vs",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0393,
+      "kind": "shader module",
+      "label": "resolve_resolve_color",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0291,
+      "kind": "shader module",
+      "label": "resolve_post_source",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.157,
+      "kind": "pipeline",
+      "label": "post_source",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.2051,
+      "kind": "pipeline",
+      "label": "resolve_color",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0,
+      "kind": "Slang",
+      "label": "path_programs_main",
+      "slang_ms": 51019.323
+    },
+    {
+      "driver_ms": 0.0,
+      "kind": "SPIR-V optimization",
+      "label": "path_programs_main",
+      "slang_ms": 0.8247
+    },
+    {
+      "driver_ms": 0.4647,
+      "kind": "shader module",
+      "label": "path_programs_main",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 8800.5866,
+      "kind": "pipeline",
+      "label": "unidirectional path",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.5593,
+      "kind": "shader module",
+      "label": "native TLAS placement",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.4131,
+      "kind": "pipeline",
+      "label": "native TLAS placement",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.026,
+      "kind": "shader module",
+      "label": "denoise_pack",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.1252,
+      "kind": "pipeline",
+      "label": "denoise_pack",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0095,
+      "kind": "shader module",
+      "label": "denoise_unpack",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0516,
+      "kind": "pipeline",
+      "label": "denoise_unpack",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0187,
+      "kind": "shader module",
+      "label": "display_stats_reduce",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.1091,
+      "kind": "pipeline",
+      "label": "exposure report",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0138,
+      "kind": "shader module",
+      "label": "display_stats_packed_reduce",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.0785,
+      "kind": "pipeline",
+      "label": "exposure report",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 0.1639,
+      "kind": "shader module",
+      "label": "timestamp boundary marker",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 12.271,
+      "kind": "pipeline",
+      "label": "timestamp boundary marker",
+      "slang_ms": 0.0
+    },
+    {
+      "driver_ms": 49.6406,
+      "kind": "denoiser workspace",
+      "label": "OIDN GPU filters",
+      "slang_ms": 0.0
+    }
+  ],
+  "stages": {
+    "denoise": {
+      "busy_ms": 66.269,
+      "wait_ms": 0.594
+    },
+    "driver_pipeline": {
+      "busy_ms": 8818.408400000002,
+      "count": 35,
+      "wall_ms": 8818.222300000001
+    },
+    "encode": {
+      "busy_ms": 2.5017,
+      "count": 3,
+      "wall_ms": 2.5017
+    },
+    "first_frame_ms": 147.6026,
+    "frames_ms": 150.409,
+    "gpu_ms": 60.83011200000001,
+    "gpu_pass_ms": {
+      "acceleration structures": 0.10147200000000003,
+      "exposure": 0.00144,
+      "path": 60.505120000000005,
+      "post_source": 0.10992,
+      "resolve": 0.11215999999999993
+    },
+    "pipeline_cache_publish": {
+      "busy_ms": 21.752399999999998,
+      "count": 2,
+      "wall_ms": 21.752399999999998
+    },
+    "pipeline_cache_serialize": {
+      "busy_ms": 1.1662,
+      "count": 2,
+      "wall_ms": 1.1662
+    },
+    "setup_ms": 62932.3067,
+    "slang_code_generation": {
+      "busy_ms": 51479.2257,
+      "count": 6,
+      "wall_ms": 51479.2257
+    },
+    "slang_front_end": {
+      "busy_ms": 1487.7133999999999,
+      "count": 2,
+      "wall_ms": 1487.7133999999999
+    },
+    "truncated": false,
+    "version": 1,
+    "wall_ms": 63082.7162
+  },
+  "still_time": 0.0,
+  "texture_cache_hits": 0,
+  "texture_upload_ms": 0.055799999999999995,
+  "transient_bytes": [
+    8533452,
+    8533452
+  ],
+  "version": 4,
+  "video_write": false,
+  "wall_ms": 63082.7162
+}
