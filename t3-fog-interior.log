@@ -1,0 +1,19 @@
+[0s] Render: loading scene
+[5s] Render: preparing scene, shaders and encoder; shader jobs 7/8; driver pipelines 4/4 complete (discovered so far)
+[10s] Render: preparing scene, shaders and encoder; shader jobs 7/8; driver pipelines 4/4 complete (discovered so far)
+[15s] Render: preparing scene, shaders and encoder; shader jobs 7/8; driver pipelines 4/4 complete (discovered so far)
+[20s] Render: preparing scene, shaders and encoder; shader jobs 7/8; driver pipelines 4/4 complete (discovered so far)
+[25s] Render: preparing scene, shaders and encoder; shader jobs 7/8; driver pipelines 4/4 complete (discovered so far)
+[30s] Render: preparing scene, shaders and encoder; shader jobs 7/8; driver pipelines 4/4 complete (discovered so far)
+[35s] Render: preparing scene, shaders and encoder; shader jobs 7/8; driver pipelines 4/4 complete (discovered so far)
+[40s] Render: preparing scene, shaders and encoder; shader jobs 7/8; driver pipelines 4/4 complete (discovered so far)
+[45s] Render: preparing scene, shaders and encoder; shader jobs 7/8; driver pipelines 4/4 complete (discovered so far)
+[50s] Render: preparing scene, shaders and encoder; shader jobs 7/8; driver pipelines 4/4 complete (discovered so far)
+[55s] Render: preparing scene, shaders and encoder; shader jobs 8/8; driver pipelines 4/5 complete (discovered so far)
+[60s] Render: preparing scene, shaders and encoder; shader jobs 8/8; driver pipelines 4/5 complete (discovered so far)
+render: std/path; up to 64 samples (adaptive); denoise on; 320x180; 1 frames
+rendered t=0; use --at SECONDS for another time, or a directory for every frame
+[63s] Render: writing files and reports; shader jobs 8/8; driver pipelines 11/11 complete (discovered so far); done
+Rendered 1 frames in 63.083s; outputs: C:\Users\haowe\WorkBuddy\2026-11-21-00-55-05\.vork-inspect\path-tests\t3-fog-interior.png
+Sidecars: C:\Users\haowe\WorkBuddy\2026-11-21-00-55-05\.vork-inspect\path-tests\t3-fog-interior.png.meta.json, C:\Users\haowe\WorkBuddy\2026-11-21-00-55-05\.vork-inspect\path-tests\t3-fog-interior.png.timings.json
+exposure: 0% clipped, 0% near-black, mean 0.21
