@@ -1,0 +1,7 @@
+[0s] Render: loading scene
+render: std/path; up to 64 samples (adaptive); denoise on; 320x180; 1 frames
+rendered t=0; use --at SECONDS for another time, or a directory for every frame
+[2s] Render: writing files and reports; shader jobs 0/0; driver pipelines 10/10 complete (discovered so far); done
+Rendered 1 frames in 2.031s; outputs: C:\Users\haowe\WorkBuddy\2026-11-21-00-55-05\.vork-inspect\path-tests\t2-first-scene.png
+Sidecars: C:\Users\haowe\WorkBuddy\2026-11-21-00-55-05\.vork-inspect\path-tests\t2-first-scene.png.meta.json, C:\Users\haowe\WorkBuddy\2026-11-21-00-55-05\.vork-inspect\path-tests\t2-first-scene.png.timings.json
+exposure: 0% clipped, 0% near-black, mean 0.36
