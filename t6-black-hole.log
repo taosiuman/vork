@@ -1,0 +1,11 @@
+[0s] Render: loading scene
+[5s] Render: preparing scene, shaders and encoder; shader jobs 28/28; driver pipelines 15/15 complete (discovered so far)
+[10s] Render: preparing scene, shaders and encoder; shader jobs 29/30; driver pipelines 17/17 complete (discovered so far)
+[15s] Render: preparing scene, shaders and encoder; shader jobs 29/30; driver pipelines 17/17 complete (discovered so far)
+[20s] Render: preparing scene, shaders and encoder; shader jobs 29/30; driver pipelines 17/17 complete (discovered so far)
+[25s] Render: preparing scene, shaders and encoder; shader jobs 30/30; driver pipelines 17/18 complete (discovered so far)
+render: std/path; up to 64 samples (adaptive); denoise on; 320x180; 1 frames
+[28s] Render: writing files and reports; shader jobs 35/35; driver pipelines 40/40 complete (discovered so far); done
+Rendered 1 frames in 28.380s; outputs: C:\Users\haowe\WorkBuddy\2026-11-21-00-55-05\.vork-inspect\path-tests\t6-black-hole.png
+Sidecars: C:\Users\haowe\WorkBuddy\2026-11-21-00-55-05\.vork-inspect\path-tests\t6-black-hole.png.meta.json, C:\Users\haowe\WorkBuddy\2026-11-21-00-55-05\.vork-inspect\path-tests\t6-black-hole.png.timings.json
+exposure: 0.3% clipped, 53% near-black, mean 0.25
