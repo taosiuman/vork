@@ -1,0 +1,10 @@
+[0s] Render: loading scene
+[5s] Render: preparing scene, shaders and encoder; shader jobs 11/12; driver pipelines 10/10 complete (discovered so far)
+[10s] Render: preparing scene, shaders and encoder; shader jobs 11/12; driver pipelines 10/10 complete (discovered so far)
+[15s] Render: preparing scene, shaders and encoder; shader jobs 11/12; driver pipelines 10/10 complete (discovered so far)
+render: std/path; up to 64 samples (adaptive); denoise on; 320x180; 1 frames
+rendered t=0; use --at SECONDS for another time, or a directory for every frame
+[18s] Render: writing files and reports; shader jobs 12/12; driver pipelines 16/16 complete (discovered so far); done
+Rendered 1 frames in 18.268s; outputs: C:\Users\haowe\WorkBuddy\2026-11-21-00-55-05\.vork-inspect\path-tests\t5-programs.png
+Sidecars: C:\Users\haowe\WorkBuddy\2026-11-21-00-55-05\.vork-inspect\path-tests\t5-programs.png.meta.json, C:\Users\haowe\WorkBuddy\2026-11-21-00-55-05\.vork-inspect\path-tests\t5-programs.png.timings.json
+exposure: 0% clipped, 0% near-black, mean 0.44
