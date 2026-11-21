@@ -1,0 +1,7 @@
+[0s] Render: loading scene
+render: std/path; up to 64 samples (adaptive); denoise on; 800x600; 1 frames
+rendered t=0; use --at SECONDS for another time, or a directory for every frame
+[3s] Render: writing files and reports; shader jobs 0/0; driver pipelines 10/10 complete (discovered so far); done
+Rendered 1 frames in 2.724s; outputs: path-t1.png
+Sidecars: path-t1.png.meta.json, path-t1.png.timings.json
+exposure: 0% clipped, 0% near-black, mean 0.52
